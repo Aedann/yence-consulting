@@ -1,0 +1,61 @@
+.presentation-section {
+  margin-top: 0;
+  padding-top: 0;
+  background: linear-gradient(135deg, #052629 0%, #2b8a96 100%);
+}
+.presentation-section .container p.right {
+  text-align: right;
+}
+.presentation-section .container > img {
+  width: 100%;
+  height: auto;
+  border-radius: 32px;
+  max-height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.presentation-section .container > p {
+  font-size: 30px;
+  padding: 75px 0;
+  color: #ffffff;
+}
+.presentation-section .container {
+  display: flex;
+  gap: 45px;
+}
+.presentation-section .container .col {
+  width: 50%;
+  display: flex;
+  gap: 32px;
+  flex-direction: column;
+  padding: 75px 0;
+}
+.presentation-section .container .col p {
+  font-size: 30px;
+  color: #ffffff;
+}
+.presentation-section.cta {
+  background: #76c2a3;
+  padding-bottom: 0;
+}
+.presentation-section.cta .container {
+  padding: 5rem 0;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+.presentation-section.cta .container p {
+  padding: 0;
+  font-size: 30px;
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+  color: #00545c;
+}
+.presentation-section.cta .container p strong.white {
+  color: #ffffff;
+  font-size: inherit;
+}
+.presentation-section.cta .container p.cta {
+  font-size: 36px;
+}/*# sourceMappingURL=presentation.css.map */

@@ -1,0 +1,86 @@
+[
+  {
+    "slug": "transition-ecologique",
+    "fields": {
+      "details_surtitre": "",
+      "details_titre": "Des enjeux en\nTransition écologique\nou en Certification Iso 9001 ?",
+      "details_sections": [
+        {
+          "photo": 0,
+          "texte": "<p>Vous souhaitez <strong>sensibiliser vos équipes</strong> et les amener à construire en <strong>intelligence collective</strong> des actions concrètes et simples en <strong>développement durable</strong>.</p>"
+        },
+        {
+          "photo": 0,
+          "texte": "<p>Vous avez des <strong>échéances</strong> en termes de qualité et souhaitez viser la <strong>certification Iso 9001</strong> pour l'ensemble de la PUI.</p>"
+        }
+      ],
+      "points_surtitre": "La solution que nous proposons",
+      "points_titre": "Yence Consulting peut aussi vous apporter son support.",
+      "points_description": "#FACILITATION #SENSIBILISATION #RSE #COACHING #IMPLICATION",
+      "points_liste": []
+    }
+  },
+  {
+    "slug": "acces-au-marche",
+    "fields": {
+      "details_surtitre": "",
+      "details_titre": "Votre stratégie d'accès au marché en région vous semble inopérante ?",
+      "details_sections": [
+        {
+          "photo": 0,
+          "texte": "<p>Vous êtes temporairement en <strong>sous effectif</strong> ou souhaitez <strong>prendre du recul sur vos activités</strong>,</p>"
+        },
+        {
+          "photo": 0,
+          "texte": "<p>Vous souffrez d'un <strong>déficit de coordination interne</strong>,</p>"
+        },
+        {
+          "photo": 0,
+          "texte": "<p>Vous avez des freins à <strong>l'accès sur des comptes clés</strong>,</p>"
+        },
+        {
+          "photo": 0,
+          "texte": "<p>Vous voulez établir une <strong>feuille de route annuelle</strong> et prioriser vos actions,</p>"
+        }
+      ],
+      "points_surtitre": "La solution que nous proposons",
+      "points_titre": "Yence Consulting peut vous accompagner :",
+      "points_description": "#ECOUTE #EVALUATION #RECOMMANDATIONS #APPUI #MISE-EN-ŒUVRE",
+      "points_liste": [
+        {
+          "picto": "",
+          "texte": "<p>Interventions ciblées et temporaires</p>"
+        },
+        {
+          "picto": "",
+          "texte": "<p>Management de transition</p>"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "developpement-commercial",
+    "fields": {
+      "details_surtitre": "Vous souhaitez :",
+      "details_titre": "Développer vos produits actuels vers de nouvelles cibles ou de nouveaux marchés",
+      "details_sections": [
+        {
+          "photo": 0,
+          "texte": "<p>Vous êtes temporairement en <strong>sous effectif</strong> ou souhaitez <strong>prendre du recul sur vos activités</strong>,</p>"
+        },
+        {
+          "photo": 0,
+          "texte": "<p>Vous souffrez d'un <strong>déficit de coordination interne</strong>,</p>"
+        },
+        {
+          "photo": 0,
+          "texte": "<p>Vous avez des freins à <strong>l'accès sur des comptes clés</strong>,</p>"
+        }
+      ],
+      "points_surtitre": "La solution que nous proposons",
+      "points_titre": "Parlons-en !",
+      "points_description": "#EXPERTISE-TERRAIN #BENCHMARKS #RETOURS-D-EXPÉRIENCE #GESTION-DE-PROJETS-COMPLEXES #PARTENARIATS #RÉSEAU #PLANIFICATION-STRATÉGIQUE",
+      "points_liste": []
+    }
+  }
+]

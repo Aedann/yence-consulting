@@ -1,0 +1,83 @@
+.button-primary {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  padding: 0.6rem 0.6rem 0.5rem 1rem;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #76c2a3 0%, #00545c 100%);
+  color: #fff;
+  font-weight: 500;
+  border: #ffffff 1px solid;
+  width: -moz-fit-content;
+  width: fit-content;
+  outline: none;
+}
+.button-primary span {
+  width: 33px;
+  height: 33px;
+  border-radius: 5px;
+  background-color: #00545c;
+  padding: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button-primary span svg {
+  width: 12px;
+  height: auto;
+}
+
+.button-secondary {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  padding: 0.6rem 0.6rem 0.5rem 1rem;
+  border-radius: 10px;
+  background: 5;
+  backdrop-filter: blur(10px) brightness(0.9);
+  color: #fff;
+  font-weight: 500;
+  border: #faf6f0 1px solid;
+  width: -moz-fit-content;
+  width: fit-content;
+  outline: none;
+}
+.button-secondary span {
+  width: 33px;
+  height: 33px;
+  border-radius: 5px;
+  background-color: #00545c;
+  padding: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button-secondary span svg {
+  width: 12px;
+  height: auto;
+}
+
+.button-secondary,
+.button-primary {
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 0px rgba(255, 255, 255, 0);
+  font-size: 20px !important;
+  cursor: pointer;
+}
+.button-secondary span,
+.button-primary span {
+  transition: all 0.3s ease;
+}
+.button-secondary:hover,
+.button-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(255, 255, 255, 0.15);
+}
+.button-secondary:hover span,
+.button-primary:hover span {
+  margin-left: 7px;
+}/*# sourceMappingURL=buttons.css.map */

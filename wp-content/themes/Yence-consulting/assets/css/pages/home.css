@@ -1,0 +1,196 @@
+.home-section-header {
+  position: relative;
+  height: 43vh;
+  overflow: hidden;
+}
+.home-section-header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(15px) brightness(0.9);
+  z-index: 0;
+}
+.home-section-header .bg-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  backdrop-filter: blur(25px) brightness(0.9);
+}
+.home-section-header .bg-image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.home-section-header .element1 {
+  position: absolute;
+  left: 1vw;
+  right: 50vw;
+  margin: auto;
+  top: 3vw;
+  bottom: 0;
+  width: -moz-fit-content;
+  width: fit-content;
+  z-index: 2;
+}
+.home-section-header .element1 svg {
+  width: 450px;
+  height: auto;
+  opacity: 1;
+  transform: rotate(-15deg);
+}
+.home-section-header .container {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  height: 100%;
+}
+.home-section-header .container h1 {
+  width: 50%;
+  color: #ffffff;
+  padding-right: 100px;
+}
+.home-section-header .container .content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+}
+.home-section-header .container .content p {
+  color: #ffffff;
+  font-size: 24px;
+}
+.services-section {
+  background: linear-gradient(to right, #ffffff, rgba(118, 194, 163, 0.5294117647));
+}
+.services-section .container {
+  position: relative;
+}
+.services-section .mention {
+  padding: 30px;
+  margin: 35px 0;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  transform: translateY(30px);
+  display: flex;
+}
+.services-section .mention svg {
+  margin-left: 35px;
+  width: 100px;
+  height: auto;
+}
+.services-section .mention p {
+  color: #00545c;
+  font-size: 25px;
+}
+.services-section .service-item {
+  position: relative;
+  height: 600px;
+  display: flex;
+  align-items: center;
+}
+.services-section .service-item .service-image {
+  left: 0;
+  width: 50%;
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 32px;
+  z-index: 5;
+}
+.services-section .service-item .service-image-thumbnail {
+  right: 0;
+  width: calc(50% + 200px);
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 32px;
+  z-index: 0;
+  transform: translateY(70px);
+  position: absolute;
+}
+.services-section .service-item.reverse {
+  flex-direction: row-reverse;
+}
+.services-section .service-item.reverse .service-card {
+  transform: translateX(80px) translateY(40px);
+}
+.services-section .service-item.reverse .service-card:hover {
+  transform: translateX(80px) translateY(35px);
+}
+.services-section .service-item.reverse .service-image-thumbnail {
+  right: unset;
+  left: 0;
+  transform: translateY(70px);
+}
+.services-section .service-item .service-card {
+  transform: translateX(-80px) translateY(40px);
+  position: relative;
+  overflow: hidden;
+  border-radius: 32px;
+  padding: 35px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 500px;
+  z-index: 30;
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+}
+.services-section .service-item .service-card:hover {
+  transform: translateX(-80px) translateY(35px);
+}
+.services-section .service-item .service-card .service-thumbnail {
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.services-section .service-item .service-card .blur {
+  z-index: 2;
+  backdrop-filter: blur(16px) brightness(1);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.services-section .service-item .service-card h2 {
+  z-index: 3;
+  position: relative;
+  color: white;
+}
+.services-section .service-item .service-card p {
+  z-index: 3;
+  position: relative;
+  color: white;
+}
+.services-section .service-item .service-card .service-picto {
+  z-index: 3;
+  position: absolute;
+  opacity: 0.2;
+  right: -40px;
+  bottom: -40px;
+  width: 200px;
+  height: 200px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.services-section .service-item .service-card .button-secondary {
+  z-index: 3;
+  position: relative;
+}/*# sourceMappingURL=home.css.map */
