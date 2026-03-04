@@ -31,7 +31,7 @@
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  z-index: -1;
+  z-index: 0;
 }
 .service-header .bg-image img {
   width: 100%;
@@ -57,7 +57,7 @@
 }
 .service-header .container .service-header__inner .col-left h1 {
   color: #ffffff;
-  margin-top: 0.7rem;
+  margin-top: 1rem;
 }
 .service-header .container .service-header__inner .col-left p,
 .service-header .container .service-header__inner .col-left .page-description {
@@ -81,6 +81,20 @@
      object-fit: contain;
 }
 
+.service-details__header .service-details__surtitre {
+  background-color: var(--service-color);
+  padding: 0.6rem 1.1rem 0.48rem;
+  border-radius: 1000px;
+  color: #ffffff;
+  display: inline-block;
+}
+.service-details__header .service-details__titre {
+  margin-top: 1rem;
+}
+.service-details__header .service-details__titre span.color {
+  color: var(--service-color);
+  font-size: inherit;
+}
 .service-details__sections {
   display: flex;
   flex-direction: column;
@@ -208,9 +222,14 @@
   color: #00545c;
 }
 
+.service-points h2.service-points__titre span.color {
+  color: var(--service-color);
+  font-size: inherit;
+}
 .service-points__liste {
-  display: grid;
-  grid-template-columns: 33.3% 33.3% 33.3%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 32px;
   margin-top: 35px;
 }
@@ -222,6 +241,12 @@
   justify-content: center;
   list-style: none;
   padding-bottom: 32px;
+  width: calc(33.333% - 21.33px);
+}
+@media (max-width: 900px) {
+  .service-points__liste .service-points__item {
+    width: 100%;
+  }
 }
 .service-points__liste .service-points__item .service-points__item-picto img {
   width: 240px;
@@ -263,7 +288,7 @@
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  z-index: -1;
+  z-index: 0;
 }
 .service-related .container {
   position: relative;
@@ -332,4 +357,51 @@
 .service-related .container .service-related__liste .service-related__item p {
   color: #00545c;
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  .service-header .container .service-header__inner {
+    flex-direction: column-reverse;
+  }
+  .service-header .container .service-header__inner .col-right {
+    width: 100%;
+    justify-content: start;
+  }
+  .service-header .container .service-header__inner .col-right .service-header__picto {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    width: 100px;
+    height: auto;
+  }
+  .service-header .container .service-header__inner .col-left {
+    width: 100%;
+  }
+  .service-related .container .service-related__liste {
+    flex-direction: column;
+  }
+  .service-related .container .service-related__liste .service-related__item {
+    width: 100%;
+  }
+  .service-details__section {
+    flex-direction: column !important;
+  }
+  .service-details__section .service-details__section-photo {
+    width: 100%;
+  }
+  .service-details__section--even .service-details__section-texte,
+  .service-details__section--odd .service-details__section-texte {
+    padding: 32px;
+    padding-top: 70px;
+    width: 100%;
+  }
+  .service-points h2 {
+    margin-top: 1rem;
+  }
+  .service-points__liste .service-points__item {
+    width: 43%;
+  }
+  .service-points__liste .service-points__item .service-points__item-picto img {
+    width: 140px;
+    height: auto;
+  }
 }/*# sourceMappingURL=service.css.map */

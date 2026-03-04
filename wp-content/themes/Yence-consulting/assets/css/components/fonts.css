@@ -8,14 +8,14 @@
   font-style: normal;
   font-weight: 100 700;
   font-display: swap;
-  src: url("/wp-content/themes/Yence-consulting/assets/css/fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf") format("truetype");
+  src: url("../fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf") format("truetype");
 }
 @font-face {
   font-family: "Josefin Sans";
   font-style: italic;
   font-weight: 100 700;
   font-display: swap;
-  src: url("/wp-content/themes/Yence-consulting/assets/css/fonts/Josefin_Sans/JosefinSans-Italic-VariableFont_wght.ttf") format("truetype");
+  src: url("../fonts/Josefin_Sans/JosefinSans-Italic-VariableFont_wght.ttf") format("truetype");
 }
 /* Josefin Sans - Poids statiques (fallback pour anciens navigateurs) */
 @font-face {
@@ -23,35 +23,35 @@
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url("/wp-content/themes/Yence-consulting/assets/css/fonts/Josefin_Sans/static/JosefinSans-Light.ttf") format("truetype");
+  src: url("../fonts/Josefin_Sans/static/JosefinSans-Light.ttf") format("truetype");
 }
 @font-face {
   font-family: "Josefin Sans";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("/wp-content/themes/Yence-consulting/assets/css/fonts/Josefin_Sans/static/JosefinSans-Regular.ttf") format("truetype");
+  src: url("../fonts/Josefin_Sans/static/JosefinSans-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Josefin Sans";
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url("/wp-content/themes/Yence-consulting/assets/css/fonts/Josefin_Sans/static/JosefinSans-Medium.ttf") format("truetype");
+  src: url("../fonts/Josefin_Sans/static/JosefinSans-Medium.ttf") format("truetype");
 }
 @font-face {
   font-family: "Josefin Sans";
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url("/wp-content/themes/Yence-consulting/assets/css/fonts/Josefin_Sans/static/JosefinSans-SemiBold.ttf") format("truetype");
+  src: url("../fonts/Josefin_Sans/static/JosefinSans-SemiBold.ttf") format("truetype");
 }
 @font-face {
   font-family: "Josefin Sans";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url("/wp-content/themes/Yence-consulting/assets/css/fonts/Josefin_Sans/static/JosefinSans-Bold.ttf") format("truetype");
+  src: url("../fonts/Josefin_Sans/static/JosefinSans-Bold.ttf") format("truetype");
 }
 /* Josefin Sans - Italiques */
 @font-face {
@@ -59,21 +59,21 @@
   font-style: italic;
   font-weight: 300;
   font-display: swap;
-  src: url("/wp-content/themes/Yence-consulting/assets/css/fonts/Josefin_Sans/static/JosefinSans-LightItalic.ttf") format("truetype");
+  src: url("../fonts/Josefin_Sans/static/JosefinSans-LightItalic.ttf") format("truetype");
 }
 @font-face {
   font-family: "Josefin Sans";
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: url("/wp-content/themes/Yence-consulting/assets/css/fonts/Josefin_Sans/static/JosefinSans-Italic.ttf") format("truetype");
+  src: url("../fonts/Josefin_Sans/static/JosefinSans-Italic.ttf") format("truetype");
 }
 @font-face {
   font-family: "Josefin Sans";
   font-style: italic;
   font-weight: 600;
   font-display: swap;
-  src: url("/wp-content/themes/Yence-consulting/assets/css/fonts/Josefin_Sans/static/JosefinSans-SemiBoldItalic.ttf") format("truetype");
+  src: url("../fonts/Josefin_Sans/static/JosefinSans-SemiBoldItalic.ttf") format("truetype");
 }
 /* Libertinus Sans - Police secondaire */
 @font-face {
@@ -81,21 +81,21 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("/wp-content/themes/Yence-consulting/assets/css/fonts/Libertinus_Sans/LibertinusSans-Regular.ttf") format("truetype");
+  src: url("../fonts/Libertinus_Sans/LibertinusSans-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Libertinus Sans";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url("/wp-content/themes/Yence-consulting/assets/css/fonts/Libertinus_Sans/LibertinusSans-Bold.ttf") format("truetype");
+  src: url("../fonts/Libertinus_Sans/LibertinusSans-Bold.ttf") format("truetype");
 }
 @font-face {
   font-family: "Libertinus Sans";
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: url("/wp-content/themes/Yence-consulting/assets/css/fonts/Libertinus_Sans/LibertinusSans-Italic.ttf") format("truetype");
+  src: url("../fonts/Libertinus_Sans/LibertinusSans-Italic.ttf") format("truetype");
 }
 /* ==================================================
    TYPOGRAPHIE DE BASE
@@ -204,4 +204,36 @@ a {
 /* Classes utilitaires pour Libertinus Sans */
 .libertinus {
   font-family: "Libertinus Sans", serif;
+}
+
+@media (max-width: 1200px) {
+  h1,
+  .h1 {
+    font-size: 2.9rem;
+  }
+  h2,
+  .h2 {
+    font-size: 1.9rem;
+  }
+  h3,
+  .h3 {
+    font-size: 1.6rem;
+  }
+}
+@media (max-width: 768px) {
+  h1,
+  .h1 {
+    font-size: 2.6rem;
+  }
+  h2,
+  .h2 {
+    font-size: 1.6rem;
+  }
+  h3,
+  .h3 {
+    font-size: 1.4rem;
+  }
+  p {
+    font-size: 18px;
+  }
 }/*# sourceMappingURL=fonts.css.map */

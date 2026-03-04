@@ -1,0 +1,112 @@
+@import "./variables.scss";
+
+// ============================================================
+// SECTION ENGAGEMENTS
+// ============================================================
+
+.section-engagements {
+  .container {
+  }
+
+  &__liste {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: nowrap;
+
+    &:has(.section-engagements__item:hover) {
+      .section-engagements__item:not(:hover) {
+        opacity: 0.65;
+      }
+    }
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    background-color: $color-turquoise;
+    border-radius: 32px;
+
+    flex: 1;
+    background: linear-gradient(
+      135deg,
+      var(--data-color),
+      $color-turquoise 100%
+    );
+    transition: all 0.3s ease;
+    &:hover {
+      transform: translateY(-5px);
+    }
+
+    hr {
+      height: 1px;
+      width: 60%;
+      background-color: $color-white;
+      border: none;
+      margin: 1rem 0;
+    }
+  }
+
+  &__item-picto {
+    width: 100%;
+    height: auto;
+
+    border-radius: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(15px) brightness(0.9);
+
+    img {
+      width: 100%;
+      object-fit: cover;
+      aspect-ratio: 5/3;
+    }
+  }
+
+  &__item-titre {
+    color: $color-white;
+    text-align: center;
+    &:nth-child(1) {
+      padding: 35px 35px 0;
+    }
+
+    padding: 0px 35px 0;
+  }
+
+  &__item-description {
+    color: $color-white;
+    text-align: center;
+    padding: 0 20px 20px;
+
+    p {
+      color: $color-white;
+      font-size: 1rem;
+    }
+
+    a {
+      &:hover {
+      }
+    }
+  }
+
+  &__cta {
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .section-engagements {
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section-engagements {
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .section-engagements {
+  }
+}

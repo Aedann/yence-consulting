@@ -221,7 +221,7 @@
 
 /* Default styles */
 .seopress-dashboard .seopress-option {
-    background: url(/wp-content/plugins/wp-seopress/assets/img/bg-dashboard.svg) no-repeat 100% 0%;
+    background: url(../img/bg-dashboard.svg) no-repeat 100% 0%;
     padding-top: 100px;
     display: flex;
     flex-wrap: wrap;
@@ -353,7 +353,7 @@
 
 .seopress-get-started .seopress-block-wizard::after {
     content: '';
-    background: url(/wp-content/plugins/wp-seopress/assets/img/bg-dashboard-wizard.svg) right center no-repeat;
+    background: url(../img/bg-dashboard-wizard.svg) right center no-repeat;
     opacity: 0.1;
     position: absolute;
     right: 0;

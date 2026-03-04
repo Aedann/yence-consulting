@@ -1,0 +1,21 @@
+// PAGE ARCHIVE //
+
+.secteur-filters {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+  .filter-link {
+    padding: 0.75rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 100px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    &.active {
+      background-color: #000;
+      color: #fff;
+      border-color: #000;
+    }
+  }
+}

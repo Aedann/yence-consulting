@@ -1,0 +1,60 @@
+// ============================
+// VARIABLES COULEUR - YENCE CONSULTING
+// ============================
+// Basé sur la charte graphique
+
+// Couleurs principales
+$color-teal-dark: #00545c; // Teal foncé
+$color-teal: #2b8a96; // Teal principal
+$color-turquoise: #76c2a3; // Turquoise
+$color-beige: #faf6f0; // Beige clair
+$color-beige-light: #faf6f0; // Beige très clair
+$color-blue: #7ac9d6; // Bleu clair
+$color-green: #90a84d; // Vert doux
+
+// Couleurs neutres
+$color-white: #ffffff;
+$color-black: #000000;
+$color-gray-dark: #052629;
+$color-gray: #666666;
+$color-gray-light: #f7f7f7;
+
+// Dégradés
+$gradient-teal-header: linear-gradient(
+  135deg,
+  $color-gray-dark 0%,
+  $color-teal 100%
+);
+
+// Dégradés
+$gradient-teal: linear-gradient(
+  135deg,
+  $color-teal-dark 0%,
+  $color-turquoise 100%
+);
+// Dégradés
+$gradient-teal-soft: linear-gradient(
+  135deg,
+  $color-teal-dark 0%,
+  $color-teal 100%
+);
+$gradient-teal-reverse: linear-gradient(
+  135deg,
+  $color-turquoise 0%,
+  $color-teal-dark 100%
+);
+
+// Ombres
+$shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.1);
+$shadow-md: 0 4px 12px rgba(0, 0, 0, 0.15);
+$shadow-lg: 0 10px 40px rgba(0, 0, 0, 0.15);
+
+// Border radius
+$radius-sm: 7px;
+$radius-md: 12px;
+$radius-lg: 24px;
+$radius-full: 50px;
+
+// Transitions
+$transition-base: all 0.3s ease;
+$transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);

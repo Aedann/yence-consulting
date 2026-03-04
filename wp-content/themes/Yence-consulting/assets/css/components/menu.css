@@ -39,11 +39,16 @@
 .main-nav {
   flex: 1;
   display: flex;
-  justify-content: center;
+  justify-content: start;
+  flex-direction: row;
+  gap: 1rem;
 }
 .main-nav .nolink > a {
   pointer-events: none;
   cursor: default;
+}
+.main-nav .button-primary {
+  display: none;
 }
 
 .nav-menu {
@@ -144,7 +149,6 @@
 .nav-menu > li:hover > .sub-menu {
   opacity: 1;
   visibility: visible;
-  transform: translateX(-50%) translateY(0);
 }
 
 /* ====== BOUTON CONTACT ====== */
@@ -241,24 +245,40 @@
   .main-nav {
     position: fixed;
     top: 70px;
-    right: 0;
+    left: 0;
     bottom: 0;
-    width: 280px;
-    max-width: 85%;
+    width: 100vw;
     background: linear-gradient(135deg, #00545c 0%, #76c2a3 100%);
-    padding: 2rem 0;
+    padding-top: 1.5rem;
     overflow-y: auto;
-    transform: translateX(100%);
+    transform: translateX(100vw);
     transition: transform 0.3s ease;
-    box-shadow: -5px 0 20px rgba(0, 0, 0, 0.2);
+    height: 100vh;
+    flex-direction: column;
+    padding: 1.5rem;
+  }
+  .main-nav .button-primary {
+    display: flex;
   }
   .main-nav.active {
     transform: translateX(0);
+  }
+  .main-nav #menu-menu-principal {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .main-nav #menu-menu-principal li a {
+    border-radius: 1rem;
+  }
+  .main-nav #menu-menu-principal li {
+    border-bottom: unset;
   }
   .nav-menu {
     flex-direction: column;
     align-items: stretch;
     gap: 0;
+    width: 100%;
   }
   .nav-menu > li {
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -323,20 +343,12 @@
     opacity: 1;
     visibility: visible;
     max-height: 500px;
+    border-radius: 1rem;
+    margin-top: 1rem;
   }
   /* Bouton contact mobile */
   .contact-btn {
-    position: fixed;
-    bottom: 2rem;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 1001;
-    padding: 1rem 2rem;
-    font-size: 1.05rem;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-  }
-  .contact-btn .contact-text {
-    display: inline;
+    display: none;
   }
 }
 /* ====== RESPONSIVE - TABLET (768px - 1024px) ====== */

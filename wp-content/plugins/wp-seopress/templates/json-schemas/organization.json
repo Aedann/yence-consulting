@@ -1,5 +1,5 @@
 {
-    "@context": "https://schema.org/",
+    "@context": "https://schema.org",
     "@type": "[[type]]",
     "name": "[[name]]",
     "url": "[[url]]",

@@ -546,7 +546,7 @@
                 {
                     "name": "Márk Sági-Kazár",
                     "email": "mark.sagikazar@gmail.com",
-                    "homepage": "https://sagikazarmark.hu/"
+                    "homepage": "https://sagikazarmark.hu"
                 }
             ],
             "description": "PSR-7 message implementation that also provides common utility methods",
@@ -628,7 +628,7 @@
                 {
                     "name": "Matthias Mullie",
                     "email": "minify@mullie.eu",
-                    "homepage": "https://www.mullie.eu/",
+                    "homepage": "https://www.mullie.eu",
                     "role": "Developer"
                 }
             ],
@@ -691,7 +691,7 @@
                 {
                     "name": "Matthias Mullie",
                     "email": "pathconverter@mullie.eu",
-                    "homepage": "http://www.mullie.eu/",
+                    "homepage": "http://www.mullie.eu",
                     "role": "Developer"
                 }
             ],
@@ -788,7 +788,7 @@
                 {
                     "name": "Jordi Boggiano",
                     "email": "j.boggiano@seld.be",
-                    "homepage": "https://seld.be/"
+                    "homepage": "https://seld.be"
                 }
             ],
             "description": "Sends your logs to files, sockets, inboxes, databases and various web services",
@@ -852,13 +852,13 @@
                 {
                     "name": "Paragon Initiative Enterprises",
                     "email": "security@paragonie.com",
-                    "homepage": "https://paragonie.com/",
+                    "homepage": "https://paragonie.com",
                     "role": "Maintainer"
                 },
                 {
                     "name": "Steve 'Sc00bz' Thomas",
                     "email": "steve@tobtu.com",
-                    "homepage": "https://www.tobtu.com/",
+                    "homepage": "https://www.tobtu.com",
                     "role": "Original Developer"
                 }
             ],
@@ -920,7 +920,7 @@
                 {
                     "name": "Paragon Initiative Enterprises",
                     "email": "security@paragonie.com",
-                    "homepage": "https://paragonie.com/"
+                    "homepage": "https://paragonie.com"
                 }
             ],
             "description": "PHP 5.x polyfill for random_bytes() and random_int() from PHP 7",
@@ -1010,7 +1010,7 @@
                 }
             ],
             "description": "PHP Secure Communications Library - Pure-PHP implementations of RSA, AES, SSH2, SFTP, X.509 etc.",
-            "homepage": "http://phpseclib.sourceforge.net/",
+            "homepage": "http://phpseclib.sourceforge.net",
             "keywords": [
                 "BigInteger",
                 "aes",
@@ -1421,7 +1421,7 @@
                 }
             ],
             "description": "A generic function and convention to trigger deprecation notices",
-            "homepage": "https://symfony.com/",
+            "homepage": "https://symfony.com",
             "support": {
                 "source": "https://github.com/symfony/deprecation-contracts/tree/v2.5.4"
             },
