@@ -4,7 +4,8 @@
  */
 
 // Configuration
-$destinataire = "eric.demonio@gmail.com";
+// $destinataire = "eric.demonio@gmail.com";
+$destinataire = "contact@aubincortacero.fr";
 $charset = "UTF-8";
 
 // Headers pour la réponse JSON
