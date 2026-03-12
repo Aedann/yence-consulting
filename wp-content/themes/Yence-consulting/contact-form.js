@@ -24,7 +24,7 @@
 
       const formData = new FormData(form);
 
-      fetch("/wp-content/themes/send-mail.php", {
+      fetch("/wp-content/themes/Yence-consulting/send-mail.php", {
         method: "POST",
         body: formData,
       })
