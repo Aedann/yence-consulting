@@ -26,7 +26,7 @@
       const formData = new FormData(form);
 
       // Utiliser FormSubmit.co (service gratuit)
-      fetch("https://formsubmit.co/ajax/contact@aubincortacero.fr", {
+      fetch("https://formsubmit.co/ajax/eric.demonio@gmail.com", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
