@@ -34,7 +34,7 @@
         },
         body: JSON.stringify({
           email: formData.get("email"),
-          objet: formData.get("objet"),
+          objet: "Yence Consulting - " + formData.get("objet"),
           message: formData.get("message"),
           _subject:
             formData.get("objet") || "Nouveau message depuis Yence Consulting",
