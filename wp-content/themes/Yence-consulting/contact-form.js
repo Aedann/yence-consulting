@@ -1,6 +1,7 @@
 /**
  * Gestionnaire de formulaires de contact
  * Gère l'envoi des formulaires avec la classe "mailto-form"
+ * Utilise FormSubmit (service externe gratuit)
  */
 (function () {
   document.querySelectorAll(".mailto-form").forEach((form) => {
@@ -24,9 +25,20 @@
 
       const formData = new FormData(form);
 
-      fetch("/wp-content/themes/Yence-consulting/send-mail.php", {
+      // Utiliser FormSubmit.co (service gratuit)
+      fetch("https://formsubmit.co/ajax/contact@aubincortacero.fr", {
         method: "POST",
-        body: formData,
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify({
+          email: formData.get("email"),
+          objet: formData.get("objet"),
+          message: formData.get("message"),
+          _subject:
+            formData.get("objet") || "Nouveau message depuis Yence Consulting",
+        }),
       })
         .then((response) => response.json())
         .then((data) => {
@@ -34,10 +46,7 @@
             alert("Votre message a été envoyé avec succès !");
             form.reset();
           } else {
-            alert(
-              "Erreur lors de l'envoi : " +
-                (data.message || "Une erreur est survenue"),
-            );
+            alert("Erreur lors de l'envoi. Veuillez réessayer.");
           }
         })
         .catch((error) => {
