@@ -1675,6 +1675,21 @@
                 <div class="cf7-grid">
                   <div class="cf7-col">
                     <p>
+                      <label>Email*</label><br />
+                      <span class="wpcf7-form-control-wrap" data-name="email">
+                        <input
+                          size="40"
+                          class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
+                          aria-required="true"
+                          placeholder=""
+                          type="email"
+                          name="email"
+                          required
+                        />
+                      </span>
+                    </p>
+
+                    <p>
                       <label>Objet*</label><br />
                       <span class="wpcf7-form-control-wrap" data-name="objet">
                         <input
@@ -2126,25 +2141,6 @@
       //# sourceURL=https://yence-consulting.com/wp-includes/js/wp-emoji-loader.min.js
     </script>
 
-    <script id="mailto">
-      (function () {
-        const mailAddress = "eric.demonio@gmail.com";
-        document.querySelectorAll(".mailto-form").forEach((form) => {
-          if (form.dataset.initialized) return; // Évite les doubles écoutes
-          form.addEventListener("submit", function (e) {
-            e.preventDefault();
-            const objet = encodeURIComponent(
-              form.querySelector('[name="objet"]')?.value || "",
-            );
-            const message = encodeURIComponent(
-              form.querySelector('[name="message"]')?.value ||
-                "Formulaire envoyé",
-            );
-            window.location.href = `mailto:${mailAddress}?subject=${objet}&body=${message}`;
-          });
-          form.dataset.initialized = "true";
-        });
-      })();
-    </script>
+    <script src="/wp-content/themes/contact-form.js"></script>
   </body>
 </html>
